@@ -1,0 +1,5 @@
+module adder(iA,iB,oAdd);
+	input [7:0] iA,iB;
+	output [8:0] oAdd;
+	assign oAdd = iA + iB; 
+endmodule
